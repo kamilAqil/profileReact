@@ -21,19 +21,19 @@ class NavComponent extends React.Component{
                         <ul className="navbar-nav" id="navLinks">
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Home 
+                                <a className="nav-link" href="#aboutComponent">Home 
                                     <span className="sr-only">(current)</span>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Skills
+                                <a className="nav-link" href="#skillsComponent">Skills
                                     <span className="sr-only">(current)</span>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Portfolio
+                                <a className="nav-link" href="#portfolioComponent">Portfolio
                                     <span className="sr-only">(current)</span>
                                 </a>
                             </li>
@@ -43,7 +43,7 @@ class NavComponent extends React.Component{
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" href="#contactComponent">Contact</a>
                             </li>
                         </ul>
                     </div>

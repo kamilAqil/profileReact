@@ -30,9 +30,25 @@ $whiteBorder: 1px solid white;
     grid-area: About;
     border: $whiteBorder;
     margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "ar1c1 ar1c2 ar1c3 ar1c4 ar1c5"
+                         "ar2c1 ar2c2 ar2c3 ar2c4 ar2c5"
+                         "ar3c1 ar3c2 ar3c3 ar3c4 ar3c5"
+
 }
 
 #skillsComponent{
     grid-area: Skills;
+    border: $whiteBorder;
+}
+
+#portfolioComponent{
+    grid-area: Portfolio;
+    border: $whiteBorder;
+}
+#contactComponent{
+    grid-area: Contact;
     border: $whiteBorder;
 }
