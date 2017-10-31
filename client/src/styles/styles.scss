@@ -1,12 +1,13 @@
 $backgroundColor : #0934EA;
+$whiteBorder: 1px solid white;
 
 #mainContainer {
     background-color: $backgroundColor;
     height: 4301px;
     width: 1920px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:"About"
                         "Skills"
                         "Portfolio"
@@ -23,4 +24,15 @@ $backgroundColor : #0934EA;
 #navLinks{
     text-align: right;
     margin-left: 58%;
+}
+
+#aboutComponent{
+    grid-area: About;
+    border: $whiteBorder;
+    margin-top: 3%;
+}
+
+#skillsComponent{
+    grid-area: Skills;
+    border: $whiteBorder;
 }

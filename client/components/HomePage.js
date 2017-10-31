@@ -1,5 +1,7 @@
 import React from 'react';
-import NavComponent from './NavComponent'
+import NavComponent from './NavComponent';
+import AboutComponent from './AboutComponent';
+import SkillsComponent from './SkillsComponent';
 // const HomePage = () => (
 //     <div>
 //         <h1>Welcome</h1>
@@ -12,8 +14,8 @@ class HomePage extends React.Component{
         return(
             <div id='mainContainer'>
                 <NavComponent/>
-                {/* About Component */}
-                {/* Skills Component */}
+                <AboutComponent/>
+                <SkillsComponent/>
                 {/* Portfolio Component */}
                 {/* Contact Component */}
             </div> 
