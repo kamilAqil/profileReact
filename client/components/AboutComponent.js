@@ -4,7 +4,8 @@ class AboutComponet extends React.Component{
     render(){
         return(
                 <div id='aboutComponent'>
-                    About
+                    {<img src="./images/headShot.jpg" alt="" id='headShotPic'/>}
+                    words
                 </div>
         )
     }
