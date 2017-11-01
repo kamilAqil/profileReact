@@ -51,10 +51,6 @@ $limeGreenBorder : 5px solid #20D935;
    border: $limeGreenBorder;
 }
 
-#skillsComponent{
-    grid-area: Skills;
-    border: $whiteBorder;
-}
 
 #portfolioComponent{
     grid-area: Portfolio;
@@ -89,4 +85,39 @@ $limeGreenBorder : 5px solid #20D935;
 
 #skillsComponent{
     grid-area: Skills;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: $whiteBorder;
+}
+
+#skillsHeader{
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+#skillsIconContainer{
+    grid-column: 2/6;
+    grid-row: 2/3;
+    margin: -4%;
+    border: $limeGreenBorder;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+}
+
+#angularIconContainer{
+    grid-column: 1;
+    grid-row: 1;
+}
+#gitHubIconContainer{
+    grid-column: 2;
+    grid-row: 1;
 }
