@@ -4,8 +4,12 @@ class AboutComponet extends React.Component{
     render(){
         return(
                 <div id='aboutComponent'>
-                    {<img src="./images/headShot.jpg" alt="" id='headShotPic'/>}
-                    words
+                    {/* headshot image */}
+                    <img src="./images/headShot.jpg" alt="" id='headShotPic' className='img-fluid'/>
+                    {/* about header */}
+                    <span id='aboutHeader' className='componentHeader'>About</span>
+                    {/* about content container */}
+                    <div id='aboutContentContainer'>blah blah blah</div>
                 </div>
         )
     }
