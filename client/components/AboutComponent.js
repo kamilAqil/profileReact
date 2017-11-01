@@ -9,7 +9,7 @@ class AboutComponet extends React.Component{
                     {/* about header */}
                     <span id='aboutHeader' className='componentHeader'>About</span>
                     {/* about content container */}
-                    <div id='aboutContentContainer'>blah blah blah</div>
+                    <div id='aboutContentContainer'>blah blah blah blah</div>
                 </div>
         )
     }
