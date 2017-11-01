@@ -14,69 +14,69 @@ class SkillsComponent extends React.Component {
                     <div id='gitHubIconContainer'>
                         <img src="./images/skillsSvg/github.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* handlebarsIcon */}
+                    <div id='handlebarsIconContainer'>
+                        <img src="./images/skillsSvg/handlebarsIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* herokuIcon */}
+                    <div id='herokuIconContainer'>
+                        <img src="./images/skillsSvg/herokuIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* babelIcon */}
+                    <div id='babelIconContainer'>
+                        <img src="./images/skillsSvg/babelIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* expressIcon */}
+                    <div id='expressIconContainer'>
+                        <img src="./images/skillsSvg/expressIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* javascriptIcon */}
+                    <div id='javascriptIconContainer'>
+                        <img src="./images/skillsSvg/javascriptIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* html5Icon */}
+                    <div id='html5IconContainer'>
+                        <img src="./images/skillsSvg/html5Icon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* jQueryIcon */}
+                    <div id='jQueryIconContainer'>
+                        <img src="./images/skillsSvg/jqueryIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* mongodbIcon */}
+                    <div id='mongodbIconContainer'>
+                        <img src="./images/skillsSvg/mongodbIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* mysqlIcon */}
+                    <div id='mysqlIconContainer'>
+                        <img src="./images/skillsSvg/mysqlIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* nodeIcon */}
+                    <div id='nodeIconContainer'>
+                        <img src="./images/skillsSvg/nodejsIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* npmIcon */}
+                    <div id='npmIconContainer'>
+                        <img src="./images/skillsSvg/npmIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* reactIcon */}
+                    <div id='reactIconContainer'>
+                        <img src="./images/skillsSvg/reactIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* sassIcon */}
+                    <div id='sassIconContainer'>
+                        <img src="./images/skillsSvg/sassIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* webpackIcon */}
+                    <div id='webpackIconContainer'>
+                        <img src="./images/skillsSvg/webpackIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* wordpressIcon */}
+                    <div id='wordpressIconContainer'>
+                        <img src="./images/skillsSvg/wordpressIcon.svg" alt="" />
                     </div>
-                    {/* angularIcon */}
-                    <div id='angularIconContainer'>
-                        <img src="./images/skillsSvg/angularjs.svg" alt="" />
+                    {/* bootstrapIcon */}
+                    <div id='bootstrapIconContainer'>
+                        <img src="./images/skillsSvg/bootstrapIcon.svg" alt="" />
                     </div>
                 </div>
             </div>

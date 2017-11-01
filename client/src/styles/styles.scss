@@ -109,8 +109,8 @@ $limeGreenBorder : 5px solid #20D935;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    
-
+    grid-gap: 5%;
+    padding: 1%;
 }
 
 #angularIconContainer{
