@@ -1,21 +1,19 @@
 import React from 'react';
-import NavComponent from './NavComponent'
-// const HomePage = () => (
-//     <div>
-//         <h1>Welcome</h1>
-//         <p>This is my site. Take a look around!</p>
-//     </div>
-// );
+import NavComponent from './NavComponent';
+import AboutComponent from './AboutComponent';
+import SkillsComponent from './SkillsComponent';
+import PortfolioComponent from './PortfolioComponent.js';
+import ContactComponent from './ContactComponent.js';
 
 class HomePage extends React.Component{
     render(){
         return(
             <div id='mainContainer'>
                 <NavComponent/>
-                {/* About Component */}
-                {/* Skills Component */}
-                {/* Portfolio Component */}
-                {/* Contact Component */}
+                <AboutComponent/>
+                <SkillsComponent/>
+                <PortfolioComponent/>
+                <ContactComponent/>
             </div> 
         )
     }

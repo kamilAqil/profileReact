@@ -1,12 +1,14 @@
 $backgroundColor : #0934EA;
-
+$whiteBorder: 1px solid white;
+$brandWhite : white;
+$headerFontSize : 40px;
 #mainContainer {
     background-color: $backgroundColor;
-    height: 4301px;
-    width: 1920px;
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:"About"
                         "Skills"
                         "Portfolio"
@@ -17,7 +19,71 @@ $backgroundColor : #0934EA;
 #navComponent {
     background-color: white;
     width: 100%;
-    height: 15%;
     position: fixed;
-    top: 0%;
+}
+
+#navLinks{
+    text-align: right;
+    margin-left: 58%;
+}
+
+#aboutComponent{
+    grid-area: About;
+    border: $whiteBorder;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    // grid-template-areas: "ar1c1 ar1c2 ar1c3 ar1c4 ar1c5"
+    //                      "ar2c1 ar2c2 ar2c3 ar2c4 ar2c5"
+    //                      "ar3c1 ar3c2 ar3c3 ar3c4 ar3c5";
+
+}
+
+#headShotPic{
+   grid-column-start: 1;
+   grid-column-end: 1;
+   grid-row-start: 2;
+   grid-row-end: 2;
+   margin-left: 50%;
+   border-radius: 10px;
+}
+
+#skillsComponent{
+    grid-area: Skills;
+    border: $whiteBorder;
+}
+
+#portfolioComponent{
+    grid-area: Portfolio;
+    border: $whiteBorder;
+}
+#contactComponent{
+    grid-area: Contact;
+    border: $whiteBorder;
+}
+
+#aboutHeader{
+    grid-column: 4;
+    justify-self: center;
+    align-self: center;
+    font-size: $headerFontSize;
+}
+
+.componentHeader{
+    color:$brandWhite;
+    font-size: $headerFontSize;
+}
+
+#aboutContentContainer{
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: $whiteBorder;
+    border-radius: 10px;
+}
+
+#skillsComponent{
+    height: 100%;
 }
