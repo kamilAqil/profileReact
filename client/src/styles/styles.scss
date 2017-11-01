@@ -2,6 +2,7 @@ $backgroundColor : #0934EA;
 $whiteBorder: 1px solid white;
 $brandWhite : white;
 $headerFontSize : 40px;
+$limeGreenBorder : 5px solid #20D935;
 #mainContainer {
     background-color: $backgroundColor;
     height: 100%;
@@ -47,6 +48,7 @@ $headerFontSize : 40px;
    grid-row-end: 2;
    margin-left: 50%;
    border-radius: 10px;
+   border: $limeGreenBorder;
 }
 
 #skillsComponent{
@@ -67,12 +69,12 @@ $headerFontSize : 40px;
     grid-column: 4;
     justify-self: center;
     align-self: center;
-    font-size: $headerFontSize;
 }
 
 .componentHeader{
     color:$brandWhite;
     font-size: $headerFontSize;
+    text-decoration: underline;
 }
 
 #aboutContentContainer{
@@ -80,8 +82,9 @@ $headerFontSize : 40px;
     grid-row: 2/3;
     margin-right: 5%;
     margin-left: 5%;
-    border: $whiteBorder;
+    border: $limeGreenBorder;
     border-radius: 10px;
+    background-color: white;
 }
 
 #skillsComponent{
