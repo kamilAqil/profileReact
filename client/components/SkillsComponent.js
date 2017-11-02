@@ -7,75 +7,75 @@ class SkillsComponent extends React.Component {
                 <span id='skillsHeader'>Skills</span>
                 <div id='skillsIconContainer'>
                     {/* angularIcon */}
-                    <div id='angularIconContainer'>
+                    <div class='skillsSvg' id='angularIconContainer'>
                         <img src="./images/skillsSvg/angularjs.svg" alt=""/>
                     </div>
                     {/* gitHubIcon */}
-                    <div id='gitHubIconContainer'>
+                    <div class='skillsSvg' id='gitHubIconContainer'>
                         <img src="./images/skillsSvg/github.svg" alt="" />
                     </div>
                     {/* handlebarsIcon */}
-                    <div id='handlebarsIconContainer'>
+                    <div class='skillsSvg' id='handlebarsIconContainer'>
                         <img src="./images/skillsSvg/handlebarsIcon.svg" alt="" />
                     </div>
                     {/* herokuIcon */}
-                    <div id='herokuIconContainer'>
+                    <div class='skillsSvg' id='herokuIconContainer'>
                         <img src="./images/skillsSvg/herokuIcon.svg" alt="" />
                     </div>
                     {/* babelIcon */}
-                    <div id='babelIconContainer'>
+                    <div class='skillsSvg' id='babelIconContainer'>
                         <img src="./images/skillsSvg/babelIcon.svg" alt="" />
                     </div>
                     {/* expressIcon */}
-                    <div id='expressIconContainer'>
+                    <div class='skillsSvg' id='expressIconContainer'>
                         <img src="./images/skillsSvg/expressIcon.svg" alt="" />
                     </div>
                     {/* javascriptIcon */}
-                    <div id='javascriptIconContainer'>
+                    <div class='skillsSvg' id='javascriptIconContainer'>
                         <img src="./images/skillsSvg/javascriptIcon.svg" alt="" />
                     </div>
                     {/* html5Icon */}
-                    <div id='html5IconContainer'>
+                    <div class='skillsSvg' id='html5IconContainer'>
                         <img src="./images/skillsSvg/html5Icon.svg" alt="" />
                     </div>
                     {/* jQueryIcon */}
-                    <div id='jQueryIconContainer'>
+                    <div class='skillsSvg' id='jQueryIconContainer'>
                         <img src="./images/skillsSvg/jqueryIcon.svg" alt="" />
                     </div>
                     {/* mongodbIcon */}
-                    <div id='mongodbIconContainer'>
+                    <div class='skillsSvg' id='mongodbIconContainer'>
                         <img src="./images/skillsSvg/mongodbIcon.svg" alt="" />
                     </div>
                     {/* mysqlIcon */}
-                    <div id='mysqlIconContainer'>
+                    <div class='skillsSvg' id='mysqlIconContainer'>
                         <img src="./images/skillsSvg/mysqlIcon.svg" alt="" />
                     </div>
                     {/* nodeIcon */}
-                    <div id='nodeIconContainer'>
+                    <div class='skillsSvg' id='nodeIconContainer'>
                         <img src="./images/skillsSvg/nodejsIcon.svg" alt="" />
                     </div>
                     {/* npmIcon */}
-                    <div id='npmIconContainer'>
+                    <div class='skillsSvg' id='npmIconContainer'>
                         <img src="./images/skillsSvg/npmIcon.svg" alt="" />
                     </div>
                     {/* reactIcon */}
-                    <div id='reactIconContainer'>
+                    <div class='skillsSvg' id='reactIconContainer'>
                         <img src="./images/skillsSvg/reactIcon.svg" alt="" />
                     </div>
                     {/* sassIcon */}
-                    <div id='sassIconContainer'>
+                    <div class='skillsSvg' id='sassIconContainer'>
                         <img src="./images/skillsSvg/sassIcon.svg" alt="" />
                     </div>
                     {/* webpackIcon */}
-                    <div id='webpackIconContainer'>
+                    <div class='skillsSvg' id='webpackIconContainer'>
                         <img src="./images/skillsSvg/webpackIcon.svg" alt="" />
                     </div>
                     {/* wordpressIcon */}
-                    <div id='wordpressIconContainer'>
+                    <div class='skillsSvg' id='wordpressIconContainer'>
                         <img src="./images/skillsSvg/wordpressIcon.svg" alt="" />
                     </div>
                     {/* bootstrapIcon */}
-                    <div id='bootstrapIconContainer'>
+                    <div class='skillsSvg' id='bootstrapIconContainer'>
                         <img src="./images/skillsSvg/bootstrapIcon.svg" alt="" />
                     </div>
                 </div>

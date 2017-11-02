@@ -86,7 +86,7 @@ $limeGreenBorder : 5px solid #20D935;
 #skillsComponent{
     grid-area: Skills;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     border: $whiteBorder;
 }
@@ -99,9 +99,9 @@ $limeGreenBorder : 5px solid #20D935;
 }
 
 #skillsIconContainer{
-    grid-column: 2/6;
-    grid-row: 2/3;
-    margin: -4%;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    margin: 1%;
     border: $limeGreenBorder;
     border-radius: 10px;
     background-color: white;
@@ -113,11 +113,77 @@ $limeGreenBorder : 5px solid #20D935;
     padding: 1%;
 }
 
-#angularIconContainer{
+#portfolioComponent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#portfolioGalleryContainer{
+    background-color: black;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    border: $whiteBorder;
+    margin: 1%;
+    border: $limeGreenBorder;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 3%;
+    padding: 3%;
+}
+
+#portfolioComponentHeader{
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.galleryGif{
+    width: 80%;
+    height: 50%;
+    align-self: center;
+    justify-self: center;
+    border: $whiteBorder;
+    border-radius: 10px;
+}
+
+#wheelOfFortuneGif{
     grid-column: 1;
     grid-row: 1;
 }
-#gitHubIconContainer{
+
+#bamazonGif{
     grid-column: 2;
     grid-row: 1;
+}
+
+#giphyGif{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#noirGif{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#rpgGif{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#triviaGif{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#angularIconContainer{
+    grid-area: 1/1/1/1;
+}
+
+.skillsSvg{
+    width: 90%;
 }
