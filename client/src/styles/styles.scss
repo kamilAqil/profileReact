@@ -5,8 +5,10 @@ $headerFontSize : 40px;
 $limeGreenBorder : 5px solid #20D935;
 #mainContainer {
     background-color: $backgroundColor;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -19,14 +21,14 @@ $limeGreenBorder : 5px solid #20D935;
 
 #navComponent {
     background-color: white;
-    width: 100%;
+    width: inherit;
     position: fixed;
 }
 
 #navLinks{
     text-align: right;
-    margin-left: 58%;
 }
+
 
 #aboutComponent{
     grid-area: About;
@@ -35,9 +37,6 @@ $limeGreenBorder : 5px solid #20D935;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    // grid-template-areas: "ar1c1 ar1c2 ar1c3 ar1c4 ar1c5"
-    //                      "ar2c1 ar2c2 ar2c3 ar2c4 ar2c5"
-    //                      "ar3c1 ar3c2 ar3c3 ar3c4 ar3c5";
 
 }
 
@@ -59,10 +58,13 @@ $limeGreenBorder : 5px solid #20D935;
 #contactComponent{
     grid-area: Contact;
     border: $whiteBorder;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #aboutHeader{
-    grid-column: 4;
+    grid-area: 1/1/1/1;
     justify-self: center;
     align-self: center;
 }
@@ -71,6 +73,7 @@ $limeGreenBorder : 5px solid #20D935;
     color:$brandWhite;
     font-size: $headerFontSize;
     text-decoration: underline;
+    border-radius: 10px;
 }
 
 #aboutContentContainer{
@@ -86,8 +89,8 @@ $limeGreenBorder : 5px solid #20D935;
 #skillsComponent{
     grid-area: Skills;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     border: $whiteBorder;
 }
 
@@ -99,8 +102,7 @@ $limeGreenBorder : 5px solid #20D935;
 }
 
 #skillsIconContainer{
-    grid-column: 1/4;
-    grid-row: 2/4;
+    grid-area: 2/1/5/6;
     margin: 1%;
     border: $limeGreenBorder;
     border-radius: 10px;
@@ -109,7 +111,6 @@ $limeGreenBorder : 5px solid #20D935;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 5%;
     padding: 1%;
 }
 
@@ -121,8 +122,7 @@ $limeGreenBorder : 5px solid #20D935;
 
 #portfolioGalleryContainer{
     background-color: black;
-    grid-column: 1/4;
-    grid-row: 2/4;
+    grid-area: 2/1/5/6;
     border: $whiteBorder;
     margin: 1%;
     border: $limeGreenBorder;
@@ -182,8 +182,4 @@ $limeGreenBorder : 5px solid #20D935;
 
 #angularIconContainer{
     grid-area: 1/1/1/1;
-}
-
-.skillsSvg{
-    width: 90%;
 }
