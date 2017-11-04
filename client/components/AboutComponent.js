@@ -3,7 +3,7 @@ import React from 'react';
 class AboutComponet extends React.Component{
     render(){
         return(
-                <div id='aboutComponent'>
+                <div id='aboutComponent' className='componentHeader'>
                     {/* headshot image */}
                     <img src="./images/headShot.jpg" alt="" id='headShotPic' className='img-fluid'/>
                     {/* about header */}

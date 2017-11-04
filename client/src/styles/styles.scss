@@ -3,6 +3,11 @@ $whiteBorder: 1px solid white;
 $brandWhite : white;
 $headerFontSize : 40px;
 $limeGreenBorder : 5px solid #20D935;
+
+body{
+    background-color: silver;
+}
+
 #mainContainer {
     background-color: $backgroundColor;
     height: 50%;
@@ -84,6 +89,7 @@ $limeGreenBorder : 5px solid #20D935;
     border: $limeGreenBorder;
     border-radius: 10px;
     background-color: white;
+    color: black;
 }
 
 #skillsComponent{
@@ -141,6 +147,10 @@ $limeGreenBorder : 5px solid #20D935;
     justify-self: center;
 }
 
+.portfolioImageContainer{
+    
+}
+
 .galleryGif{
     width: 80%;
     height: 50%;
@@ -151,33 +161,21 @@ $limeGreenBorder : 5px solid #20D935;
 }
 
 #wheelOfFortuneGif{
-    grid-column: 1;
-    grid-row: 1;
 }
 
 #bamazonGif{
-    grid-column: 2;
-    grid-row: 1;
 }
 
 #giphyGif{
-    grid-column: 3;
-    grid-row: 1;
 }
 
 #noirGif{
-    grid-column: 1;
-    grid-row: 2;
 }
 
 #rpgGif{
-    grid-column: 2;
-    grid-row: 2;
 }
 
 #triviaGif{
-    grid-column: 3;
-    grid-row: 2;
 }
 
 #angularIconContainer{

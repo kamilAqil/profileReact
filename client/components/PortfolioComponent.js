@@ -7,7 +7,7 @@ class PortfolioComponet extends React.Component {
                 <span id='portfolioComponentHeader'>Portfolio</span>
                 {/* gallery container */}
                 <div id='portfolioGalleryContainer'>
-                    {/* wheel of fortune gif */}
+                    {/* wheel of fortune gif hangman */}
                     <img src="./images/gifs/hangManGame.gif" className='galleryGif' id='wheelOfFortuneGif' alt=""/>
                     {/* bamazon gif */}
                     <img src="./images/gifs/bamazonGif.gif" id='bamazonGif' className='galleryGif' alt="" />
