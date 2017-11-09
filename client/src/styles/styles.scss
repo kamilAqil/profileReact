@@ -16,7 +16,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 0px 10px;    
+    grid-gap: 1%;    
     grid-template-areas: "About Portfolio Portfolio"
                          "Skills Contact Contact"                 
 }
@@ -42,7 +42,8 @@ body{
    border: $limeGreenBorder;
    position: absolute;
    height: 40%;
-   width: 40%;
+   top: 12%;
+   margin-left: 2.5%;
 }
 #contactComponent{
     grid-area: Contact;
@@ -65,13 +66,16 @@ body{
 }
 
 #aboutContentContainer{
-    grid-area: 2/1/2/span 2;
-    margin-right: 5%;
-    margin-left: 5%;
     border: $limeGreenBorder;
     border-radius: 10px;
     background-color: white;
     color: black;
+    position: absolute;
+    top: 55%;
+    width: 95%;
+    height: 40%;
+    margin-left: 2.5%;
+
 }
 
 #skillsComponent{
