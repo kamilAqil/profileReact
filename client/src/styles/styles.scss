@@ -110,10 +110,8 @@ body{
 }
 
 #portfolioComponent{
-    display: grid;
-    grid-area: 2/1/2/6;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: Portfolio;
+    border: $whiteBorder;
 }
 
 #portfolioGalleryContainer{
@@ -123,9 +121,6 @@ body{
     border: $limeGreenBorder;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 7%;
 }
 
 #projectOneContainer{
