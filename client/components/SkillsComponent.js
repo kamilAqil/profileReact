@@ -3,7 +3,7 @@ import React from 'react';
 class SkillsComponent extends React.Component {
     render() {
         return (
-            <div id='skillsComponent' className='componentHeader'>
+            <div id='skillsComponent' className='componentContainer'>
                 <span id='skillsHeader'>Skills</span>
                 <div id='skillsIconContainer'>
                     {/* angularIcon */}
