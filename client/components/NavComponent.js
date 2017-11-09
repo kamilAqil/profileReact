@@ -5,8 +5,8 @@ import React from 'react';
 class NavComponent extends React.Component{
     render(){
         return (
-            <div id="navComponent">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            
+                <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navComponent">
 
                     <a className="navbar-brand" href="#">Kamil Aqil</a>
 
@@ -48,7 +48,6 @@ class NavComponent extends React.Component{
                         </ul>
                     </div>
                 </nav>
-            </div>
         )
     }
 }
