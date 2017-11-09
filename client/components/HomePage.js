@@ -13,7 +13,7 @@ class HomePage extends React.Component{
                 <AboutComponent/>
                 <SkillsComponent/>
                 <PortfolioComponent/>
-                <ContactComponent/>
+                {/*}<ContactComponent/> */}
             </div> 
         )
     }
