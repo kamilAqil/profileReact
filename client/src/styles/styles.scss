@@ -33,9 +33,6 @@ body{
 }
 
 
-#aboutComponent{
-    border: $whiteBorder;
-}
 
 #headShotPic{
    border-radius: 10px;
@@ -59,8 +56,6 @@ body{
 
 .componentContainer{
     color:$brandWhite;
-    font-size: $headerFontSize;
-    text-decoration: underline;
     border-radius: 10px;
     position: relative;
 }
@@ -109,15 +104,13 @@ body{
 
 #portfolioComponent{
     grid-area: Portfolio;
-    border: $whiteBorder;
     margin-top: 3%;
 }
 
 #portfolioGalleryContainer{ 
     background-color: black;
     margin: 1%;
-    top:13%;
-    position: absolute;
+    margin-top: 8%;
     border: $limeGreenBorder;
     border-radius: 10px;
     display: grid;
@@ -144,12 +137,15 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .portfolioProjectHeader{
-    font-size: 40%;
     grid-area: 1/1/1/span 2;
+    align-self: center;
+    justify-self: center;
+
 }
 
 .galleryGif{
@@ -158,6 +154,7 @@ body{
     border: $whiteBorder;
     border-radius: 10px;
     margin-left: 10%;
+    grid-area: 2/1/span 2/span 2;
 }
 
 #wheelOfFortuneGif{
