@@ -113,8 +113,7 @@ body{
     margin-top: 3%;
 }
 
-#portfolioGalleryContainer{
-    padding-top: 4%; 
+#portfolioGalleryContainer{ 
     background-color: black;
     margin: 1%;
     top:13%;
@@ -128,7 +127,6 @@ body{
 }
 
 #projectOneContainer{
-    background-color: green;
 }
 
 #portfolioComponentHeader{
@@ -138,17 +136,28 @@ body{
     justify-self: center;
 }
 
-.portfolioImageContainer{
-    
+.portfolioProjectContainer{
+    position: relative;
+    border: $whiteBorder;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.portfolioProjectHeader{
+    font-size: 40%;
+    grid-area: 1/1/1/span 2;
 }
 
 .galleryGif{
     width: 80%;
-    height: 45%;
-    align-self: center;
-    justify-self: center;
+    height: 80%;
     border: $whiteBorder;
     border-radius: 10px;
+    margin-left: 10%;
 }
 
 #wheelOfFortuneGif{
