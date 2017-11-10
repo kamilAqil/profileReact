@@ -4,7 +4,7 @@ class PortfolioComponet extends React.Component {
     render() {
         return (
             <div id='portfolioComponent' className='componentContainer'>
-                <span id='portfolioComponentHeader'>Portfolio</span>
+                {/* <span id='portfolioComponentHeader'>Portfolio</span> */}
                 {/* gallery container */}
                 <div id='portfolioGalleryContainer'>
                     {/* wheel of fortune gif hangman */}

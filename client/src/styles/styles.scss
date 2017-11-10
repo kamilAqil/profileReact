@@ -108,9 +108,6 @@ body{
 #portfolioComponent{
     grid-area: Portfolio;
     border: $whiteBorder;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin-top: 3%;
 }
 
@@ -118,11 +115,14 @@ body{
     padding-top: 4%; 
     background-color: black;
     margin: 1%;
+    top:5%;
+    position: absolute;
     border: $limeGreenBorder;
     border-radius: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 88%;
 }
 
 #projectOneContainer{
